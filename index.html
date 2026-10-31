@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soy IDC 🔥🔥</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=1.1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- jsPDF (librería externa). "defer" = no bloquea el pintado inicial; se ejecuta en orden. -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Módulos de la app (orden = dependencias). Subir ?v= al publicar cambios: el service worker cachea .js/.css. -->
+  <script defer src="js/core/image-store.js?v=1.1.0"></script>
+  <script defer src="js/core/database.js?v=1.1.0"></script>
+  <script defer src="js/core/toast.js?v=1.1.0"></script>
+  <script defer src="js/core/config.js?v=1.1.0"></script>
+  <script defer src="js/core/utils.js?v=1.1.0"></script>
+  <script defer src="js/core/state.js?v=1.1.0"></script>
+  <script defer src="js/orders.js?v=1.1.0"></script>
+  <script defer src="js/pdf/assets.js?v=1.1.0"></script>
+  <script defer src="js/pdf/ods.js?v=1.1.0"></script>
+  <script defer src="js/pdf/idt.js?v=1.1.0"></script>
+  <script defer src="js/pdf/cde.js?v=1.1.0"></script>
+  <script defer src="js/views/render.js?v=1.1.0"></script>
+  <script defer src="js/views/list-view.js?v=1.1.0"></script>
+  <script defer src="js/views/form-view.js?v=1.1.0"></script>
+  <script defer src="js/features/signature.js?v=1.1.0"></script>
+  <script defer src="js/features/entregas.js?v=1.1.0"></script>
+  <script defer src="js/features/backup.js?v=1.1.0"></script>
+  <script defer src="js/cloud/api.js?v=1.1.0"></script>
+  <script defer src="js/cloud/print.js?v=1.1.0"></script>
+  <script defer src="js/cloud/view.js?v=1.1.0"></script>
+  <script defer src="js/cloud/edit.js?v=1.1.0"></script>
+  <script defer src="js/main.js?v=1.1.0"></script>
+
+  <script defer src="sw-register.js"></script>
+</body>
+</html>

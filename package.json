@@ -1,0 +1,15 @@
+{
+  "name": "soy-idc-ods",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Soy IDC – Órdenes de Servicio (webapp estática)",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "test:original": "APP_DIR=tests/original node --test \"tests/**/*.test.js\"",
+    "test:refactor": "APP_DIR=. node --test \"tests/**/*.test.js\""
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.7",
+    "jsdom": "^24.1.0"
+  }
+}

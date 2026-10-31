@@ -1,0 +1,35 @@
+{
+  "name": "Soy IDC",
+  "short_name": "Soy IDC",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./favicon.ico",
+      "sizes": "8x8 10x10 14x14 16x16 22x22 24x24 33x33 40x40 48x48 64x64 96x96 128x128 256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}
